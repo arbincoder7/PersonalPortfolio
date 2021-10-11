@@ -1,0 +1,303 @@
+section{
+    height: 500px;
+    background-color:#F9F3DF;
+    /*border: solid black 1px;*/
+}
+
+.sec1{
+    background-color: #79B4B7;
+    height: 100vh;
+    font-size: 40px;
+    color: #F8F0DF;
+    font-family: 'Lato', sans-serif;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    /*height: 100PX;*/
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+li{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+li:hover{
+    color: #FF865E;
+    cursor: pointer;
+}
+
+li:active{
+    color: lightgray;
+}
+
+h1{
+    font-size: 130px;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.name-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-text{
+    margin-left: 40px;
+}
+
+.button{
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #FF865E;
+    color:#F8F0DF;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: #FFB085;
+    cursor: pointer;
+}
+
+.button:active{
+    background-color: darkgrey;
+    color: lightgray;
+}
+
+.social{
+    padding-bottom: 200px;
+    margin: 15px;
+}
+
+.logo{
+    height: 70px;
+    margin: 15px;
+    margin-top: 5px;
+    border: solid #F8F0DF;
+    border-radius: 70px;
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    background-color: #F8F0DF;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.info{
+    padding: 80px;
+}
+
+.pic{
+    border-radius: 100px;
+}
+
+.intro{
+    font-size: 30px;
+}
+
+.sec3{
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    background-color: white;
+}
+.project-card{
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    /*border: solid 1px;*/
+    box-shadow: 5px 5px 10px grey;
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*.project-card:hover{
+    opacity: 50%;
+}*/
+
+.linkedinlogo:hover{
+    transform: scale(1.5);
+    margin-bottom: 10px;
+}
+
+.githublogo:hover{
+    transform: scale(1.5);
+    margin-top: 10px;
+}
+
+.sub-text{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.project-image{
+    width: 300px;
+    
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link{
+    text-decoration: none;
+    color: #FF865E;
+}
+
+a{
+    text-decoration: none;
+    color: #F8F0DF
+}
+
+a:hover{
+    color: #FF865E;
+    cursor: pointer; 
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-me{
+    font-size: 50px;
+}
+
+input{
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8aee8f;
+}
+
+button:active{
+    background-color: #ccc;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    
+    ul{
+        font-size: 15px;
+    }
+    .sec1{
+        width: auto;
+    }
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h1{
+        font-size: 50px;
+        margin: 0;
+    }
+    .pic{
+        width: 60px;
+        border-radius: 15px;
+    }
+
+    .logo{
+        height: 35px;
+    }
+
+    .sub-heading{
+        font-size: 20px;
+    }
+
+    .button{
+        font-size: 20px;
+        height: 25px;
+        width: 100px;
+    }
+
+    .sec2{
+        padding: 20px;
+    }
+
+    .info{
+        padding: 20px;
+    }
+
+    h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .intro{
+        font-size: 20px;
+    }
+
+    .sec3{
+        padding: 0px;
+        text-align: center;
+    }
+
+    .project-card{
+        width: 300px;
+        height: 350px;
+    }
+
+    .contact-me{
+        font-size: 40px;
+    }
+}
